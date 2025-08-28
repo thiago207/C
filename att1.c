@@ -6,6 +6,7 @@ int main() {
     float peso;
     float altura;
     float imc;
+    
     printf("Digite seu peso: ");
     scanf("%f", &peso);
 
