@@ -1,5 +1,3 @@
- 
-
 int main(){
 
     float notas[10];
