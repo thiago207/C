@@ -2,7 +2,7 @@
 
 int main() {
     // Atividade
-    // inicialize uma string com a palavra Pernambuco, imprima apenas Perna
+    // inicialize uma string com a palavra Pernambuco, imprima apenas Perna 
 
     char p[] = "Pernambuco";
 
