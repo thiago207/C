@@ -25,7 +25,7 @@ int busca_binaria(int vetor[], int tamanho_vetor, int valor_buscado) {
 int main() {
     int vetor[] = {1, 3, 5, 7, 9, 12, 15, 20};
     int tamanho_vetor = sizeof(vetor) / sizeof(vetor[0]);
-    int valor_buscado = 3;
+    int valor_buscado = 20;
     int resultado_busca;
 
     // Chamando a função
