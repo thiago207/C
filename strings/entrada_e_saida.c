@@ -8,8 +8,8 @@ int main() {
 
     printf("nome: %s\n", nome);
 
-    printf("Endereço base: %p\n", nome);
-    printf("Primeiro caractere: '%c' está em %p\n", nome[0], &nome[0]);
+    printf("Endereco base: %p\n", nome);
+    printf("Primeiro caractere: '%c' esta em %p\n", nome[0], &nome[0]);
 
     return 0;
 }
