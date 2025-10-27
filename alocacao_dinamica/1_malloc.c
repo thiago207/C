@@ -15,7 +15,8 @@ int main() {
         printf("Erro de alocacao!\n");
         return 1;
     }
-
+    
+    
     p[0] = 10;
     p[1] = 20;
     p[2] = 30;
@@ -23,7 +24,8 @@ int main() {
     printf("p[0] = %d\n", p[0]);
     printf("p[1] = %d\n", p[1]);
     printf("p[2] = %d\n", p[2]);
-
+    printf("p %d\n", p);
+    printf("*p %d\n", *p);
     free(p); // libera a memória alocada
     return 0;
 }
