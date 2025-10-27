@@ -4,14 +4,14 @@
 
 int* cria_estatico() {
     int x = 500;
-    printf("[cria_estatico] x = %d, endereço = %p\n", x, &x);
+    printf("[cria_estatico] x = %d, endereco = %p\n", x, &x);
     return &x; 
 }
 
 int* cria_dinamico() {
     int *p = malloc(sizeof(int));  
     *p = 20;
-    printf("[cria_dinamico] *p = %d, endereço = %p\n", *p, p);
+    printf("[cria_dinamico] *p = %d, endereco = %p\n", *p, p);
     return p;  
 }
 
@@ -20,8 +20,8 @@ int main() {
     int *b = cria_dinamico();
 
     printf("\n[main] Apos retorno das funcoes:\n");
-    printf("a: endereço = %p, valor = %d (valor indefinido / lixo)\n", a, *a);
-    printf("b: endereço = %p, valor = %d (valor válido)\n", b, *b);
+    printf("a: endereco = %p, valor = %d (valor indefinido / lixo)\n", a, *a);
+    printf("b: endereco = %p, valor = %d (valor válido)\n", b, *b);
 
     free(b);
     return 0;
