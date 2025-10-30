@@ -20,9 +20,11 @@ int main(){
 
     printf("Digite seu nome: ");
     fgets(a.nome, sizeof(a.nome), stdin);
+    a.nome[strlen(a.nome) - 1] = "\0";
 
     printf("Digite seu curso: ");
     fgets(a.curso, sizeof(a.curso), stdin);
+    a.curso[strlen(a.curso) - 1] = "\0";
 
     printf("Digite sua idade: ");
     scanf("%d", &a.idade);
